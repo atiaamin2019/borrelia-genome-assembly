@@ -1,0 +1,24 @@
+name: borrelia_assembly
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.9
+  - fastp
+  - filtlong
+  - nanoplot
+  - flye
+  - canu
+  - raven-assembler
+  - trycycler
+  - medaka
+  - bwa
+  - samtools
+  - polypolish
+  - bakta
+  - bedtools
+  - seqkit
+  - seqtk
+  - blast
+  - biopython
+  - pandas

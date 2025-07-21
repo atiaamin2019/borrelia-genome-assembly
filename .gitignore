@@ -1,0 +1,7 @@
+*.log
+*.tmp
+*.sam
+*.bam
+*.fasta
+*.fastq
+*.gz

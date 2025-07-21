@@ -32,7 +32,8 @@ See `docs/protocol_summary.md` for step-by-step descriptions.
 bash scripts/01_qc/fastp_illumina.sh
 ```
 Output:
-	•	bb_illumina_R1_P.fastq.gz, bb_illumina_R2_P.fastq.gz
+bb_illumina_R1_P.fastq.gz
+bb_illumina_R2_P.fastq.gz
 
 1.2 Nanopore Reads (using filtlong + NanoPlot)
 ```bash
@@ -40,8 +41,8 @@ bash scripts/01_qc/filtlong_nanopore.sh
 bash scripts/01_qc/nanoplot_summary.sh
 ```
 Output:
-•bb_ont_filtered.fastq
-•QC plots under bb_ont_filtered_QC/
+bb_ont_filtered.fastq
+QC plots under bb_ont_filtered_QC/
 
 ## 2. Linear Chromosome Assembly
 2.1 Subsample Reads (Trycycler)
@@ -57,7 +58,7 @@ bash scripts/02_assembly/trycycler_assembly.sh
 bash scripts/02_assembly/trycycler_clustering.sh
 ```
 Output:
-•7_final_consensus.fasta in trycycler/cluster_001/
+7_final_consensus.fasta in trycycler/cluster_001/
 
 
 

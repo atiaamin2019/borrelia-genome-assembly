@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Borrelia Genome Assembly Pipeline
 
 This repository implements a comprehensive telomere-to-telomere hybrid genome assembly pipeline for *Borrelia burgdorferi* using both Illumina short reads and Oxford Nanopore long reads.
@@ -25,3 +26,7 @@ See `docs/protocol_summary.md` for step-by-step descriptions.
 
 ## Acknowledgments
 Based on the protocol: *A Comprehensive Protocol for Telomere-to-telomere Genome Assembly of a Spirochete Bacteria Borrelia burgdorferi* (Amin et al.)
+=======
+# borrelia-genome-assembly
+Telomere-to-telomere genome assembly pipeline for Borrelia burgdorferi
+>>>>>>> 28a9642930f9f7b7088c906894b60a8ec09bd244

@@ -40,8 +40,30 @@ bash scripts/01_qc/filtlong_nanopore.sh
 bash scripts/01_qc/nanoplot_summary.sh
 ```
 Output:
-	•	bb_ont_filtered.fastq
-	•	QC plots under bb_ont_filtered_QC/
+•bb_ont_filtered.fastq
+•QC plots under bb_ont_filtered_QC/
+
+## 2. Linear Chromosome Assembly
+2.1 Subsample Reads (Trycycler)
+```
+bash scripts/02_assembly/trycycler_subsample.sh
+```
+2.2 Assemble with Flye, Canu, and Raven
+```
+bash scripts/02_assembly/trycycler_assembly.sh
+```
+2.3 Cluster, Align, Partition, Consensus
+```
+bash scripts/02_assembly/trycycler_clustering.sh
+```
+Output:
+•7_final_consensus.fasta in trycycler/cluster_001/
+
+
+
+
+
+
 
 
 ## Acknowledgments

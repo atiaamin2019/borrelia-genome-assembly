@@ -26,5 +26,4 @@ See `docs/protocol_summary.md` for step-by-step descriptions.
 
 ## Acknowledgments
 Telomere-to-telomere assembly detects genomic diversity in Canadian strains of Borrelia burgdorferi (Amin et al. 2025)
-=======
 

@@ -70,8 +70,8 @@ Final Output:
 trycycler_medaka_polypolish.fasta
 
 ## 3. Telomeric Trimming of Linear Chromosome
-3.1 Prepare trimming_position.txt
-Manually inspect telomere ends and create:
+3.1 Prepare trimming_position.txt file based on the hairpin wraparound positions of the linear replicons. Self-identity Dot plots can be used to visualize the hairpin wraparounds.
+We inspected telomere ends for the conserved telomeric sequences of the reference strain B31 and created the trimming position file. An example is given below
 ```
 bb1 11463 921975
 bb3 19033 921811
@@ -141,7 +141,7 @@ linear_plasmid_telomere_extension
 
 ```
 5.4 Trim the merged linear plasmids based on the trimming positions in 
-trimming_position.txt (Following Step 3)
+trimming_position.txt (Following Step 3, we used Inverted Repeat Finder (IRF) to identify the precise inversion positions for each plasmid contig)
 ```
 python scripts/03_trimming/trimming_based_on_inversion_position.py
 ```

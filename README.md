@@ -92,7 +92,7 @@ bash scripts/04_plasmid_assembly/plassembler.sh
 Output:
 plassembler_output/plasmids.fasta
 
-4.2 Split circular vs linear based on summary.tsv
+4.2 Split circular vs linear based on `summary.tsv`. 
 Manually separate into:
 	•	circular_plasmid_contigs.fasta
 	•	linear_plasmid_contigs.fasta

@@ -106,6 +106,12 @@ python scripts/04_plasmid_assembly/simple_circularise.py circular_plasmid_contig
 ```
 ## 5. Telomeric Extension for Linear Plasmids
 5.1 Extract telomeric reads
+ONT reads that are mapped to the first and last 5 kb of each linear plasmid contig need to be extracted using the following script and a regions.bed file. Below is an example of the regions.bed file (plasmid contig, lp17) where the first column is the contig header, the second and the third columns are the positions to extract the mapped reads.
+```
+lp17 0 5000
+lp17 16000 21000
+```
+
 ```
 bash scripts/05_telomere_extension/extract_telomeric_reads.sh
 ```

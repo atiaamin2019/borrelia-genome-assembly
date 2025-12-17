@@ -96,7 +96,9 @@ plassembler_output/plasmids.fasta
 Manually separate into:
 	•	circular_plasmid_contigs.fasta
 	•	linear_plasmid_contigs.fasta
+	
 4.3 Circularize plasmids (optional manual fix)
+
 If circular plasmid contigs are not already circularized, use simple_circularise.py script to circularize it. The script and instructions to run it is available on: https://github.com/Kzra/Simple-Circularise.git
 ```
 python scripts/04_plasmid_assembly/simple_circularise.py circular_plasmid_contigs.fasta circularized_contigs.fasta -r 10 -min 5000

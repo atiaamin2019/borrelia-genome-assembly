@@ -97,6 +97,7 @@ Manually separate into:
 	•	circular_plasmid_contigs.fasta
 	•	linear_plasmid_contigs.fasta
 4.3 Circularize plasmids (optional manual fix)
+If circular plasmid contigs are not already circularized, use simple_circularise.py script to circularize it. The script and instructions to run it is available on: https://github.com/Kzra/Simple-Circularise.git
 ```
 python scripts/04_plasmid_assembly/simple_circularise.py circular_plasmid_contigs.fasta circularized_contigs.fasta -r 10 -min 5000
 ```
@@ -121,8 +122,10 @@ Then run:
 ```
 bash scripts/05_telomere_extension/batch_merge_contigs.sh
 ```
-5.4 Trim merged linear plasmids
-Update trimming_position.txt, then:
+The batch_merge_contigs.sh BASH script will call the scripts/05_telomere_extension/merging_contigs_blast.py to run it as a loop for all plasmid types in the directory.
+
+5.4 Trim the merged linear plasmids based on the trimming positions in 
+trimming_position.txt (Following Step 3)
 ```
 python scripts/03_trimming/trimming_based_on_inversion_position.py
 ```

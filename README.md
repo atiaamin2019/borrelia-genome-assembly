@@ -123,7 +123,23 @@ Then run:
 bash scripts/05_telomere_extension/batch_merge_contigs.sh
 ```
 The batch_merge_contigs.sh BASH script will call the scripts/05_telomere_extension/merging_contigs_blast.py to run it as a loop for all plasmid types in the directory.
+Below is the structure of the directories explained above for one strain bb8 as an example.
+```
+linear_plasmid_telomere_extension
+├── contig_12_lp17
+│ ├── bb8_contig_12_lp17.fasta
+│ ├── contig12_L_end.fasta
+│ ├── contig12_R_end.fasta
+│ ├── merged_contig.fasta
+├── contig_1_lp54
+│ ├── bb8_contig_1_lp54.fasta
+│ ├── contig1_L_end.fasta
+│ ├── contig1_R_end.fasta
+│ ├── merged_contig.fasta
+├── merging_contigs_blast.py
+├── batch_merge_contigs.sh
 
+```
 5.4 Trim the merged linear plasmids based on the trimming positions in 
 trimming_position.txt (Following Step 3)
 ```

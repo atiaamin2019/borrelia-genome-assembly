@@ -169,8 +169,10 @@ annotation.gbff, annotation.tsv, annotation.json in results/annotation/
 	•	bb_chromosome_plasmids.fa: Combined for annotation
 	•	annotation/: Annotated genome files
 
-## Acknowledgments
+## Acknowledgments and Citation
 Telomere-to-telomere assembly detects genomic diversity in Canadian strains of Borrelia burgdorferi
+
 Atia Amin, Ana Victoria Ibarra Meneses, Simon Gagnon, Georgi Merhi, Martin Olivier, Momar Ndao, Mathieu Blanchette, Christopher Fernandez Prada, David Langlais
+
 bioRxiv 2025.07.18.665644; doi: https://doi.org/10.1101/2025.07.18.665644
 

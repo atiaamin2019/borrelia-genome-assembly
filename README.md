@@ -121,13 +121,12 @@ bash scripts/05_telomere_extension/extract_telomeric_reads.sh
 bash scripts/05_telomere_extension/flye_telomere_assembly.sh
 ```
 5.3 Merge telomeric ends with main contig
-Make sure:
+Make sure the following files are all in their contig_* folder.
 ```
 contig_x_L_end.fasta
 contig_x_R_end.fasta
 bbX_contig_x_lpYY.fasta
 ```
-are all in their contig_* folder.
 Then run:
 ```
 bash scripts/05_telomere_extension/batch_merge_contigs.sh

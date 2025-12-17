@@ -33,6 +33,7 @@ The pipeline integrates long-read Oxford Nanopore and short-read Illumina sequen
 ### 5. Telomeric Extension
 - ONT reads mapped to plasmid ends are extracted
 - Left and right end contigs are assembled and merged into final plasmid contigs
+- The merged contigs were trimmed based on the inversion positions identified by `Inverted Repeat Finder (IRF)`
 
 ### 6. Annotation
 - Final genome annotated with `Bakta` using downloaded genus-specific database

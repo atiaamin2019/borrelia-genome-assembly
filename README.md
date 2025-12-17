@@ -94,6 +94,7 @@ plassembler_output/plasmids.fasta
 
 4.2 Split circular vs linear based on `summary.tsv`. 
 Manually separate into:
+
 	•	circular_plasmid_contigs.fasta
 	•	linear_plasmid_contigs.fasta
 	

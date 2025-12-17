@@ -8,11 +8,11 @@ DOI to the latest version: https://doi.org/10.5281/zenodo.17967226
 ## Pipeline Overview
 1. Quality control of Illumina & ONT reads
 2. Assembly of linear chromosome using Trycycler
-3. Polishing with Medaka and Polypolish
-4. Telomeric trimming of linear chromosome
-5. Plasmid assembly using Plassembler
-6. Telomeric extension of linear plasmids
-7. Annotation using Bakta
+   and polishing with Medaka and Polypolish
+3. Telomeric trimming of linear chromosome
+4. Plasmid assembly using Plassembler
+5. Telomeric extension of linear plasmids
+6. Annotation using Bakta
 
 ## Installation
 ```bash
